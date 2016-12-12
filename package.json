@@ -1,0 +1,12 @@
+{
+  "name": "viseo-typescript-course",
+  "version": "1.0.0",
+  "description": "Support d'exercice.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/viseo-app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  }
+}
