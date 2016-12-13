@@ -10,6 +10,7 @@
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "dependencies": {
+    "systemjs": "^0.19.9"
   },
   "devDependencies": {
     "concurrently": "^1.0.0",
