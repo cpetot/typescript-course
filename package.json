@@ -4,9 +4,15 @@
   "description": "Support d'exercice.",
   "main": "app.js",
   "scripts": {
-    "start": "node dist/viseo-app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "dependencies": {
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "lite-server": "^1.3.1"
   }
 }
