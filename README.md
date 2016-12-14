@@ -17,16 +17,10 @@
 
  4. Dans un terminal, lancez la compilation :
  ```
- npm start ```
+ npm start
+ ```
 Ceci va à la fois lancer une compilation des sources en mode watch, et un mini serveur avec auto-reload.
 Les ressources sont servies sur [localhost:3000](http://localhost:3000)
-
-
-## Tutoriel
-
-Commencez par suivre le tutoriel du site officiel de Typescript : https://www.typescriptlang.org/docs/tutorial.html.
-- Suivez le tutoriel, le handbook, les infos sur les fichiers de configuration.
-- Effectuez tous les essais dans le projet donné
 
 ## Exercice
 Lancez l'application, qu'est-ce qui est affiché ?
